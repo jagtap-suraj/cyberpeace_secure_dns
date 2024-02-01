@@ -44,7 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
   void startVpn() async {
     try {
       await wireguard.startVpn(
-        serverAddress: 'http://115.113.39.74:65528/api/user/wireguardapi',
+        serverAddress: '',
         wgQuickConfig: conf,
         providerBundleIdentifier: 'com.example.cyberpeace_secure_dns',
       );
